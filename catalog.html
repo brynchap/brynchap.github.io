@@ -1,0 +1,70 @@
+<html>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.33">
+    <title>Wittle website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html">
+                <img src="logo.png">
+            </a>
+        </header>
+
+        <nav>
+            <a href="index.html" class="nav_button">
+                <h3>Home</h3>
+            </a>
+            <a href="catalog.html" class="nav_button">
+                <h3>Catalog</h3>
+            </a>
+            <a href="contact.html" class="nav_button">
+                <h3>Contact Us</h3>
+            </a>
+        </nav>
+
+        <main class="main_catalog_contact">
+            <div>
+                <div class="listing">
+                    <h1> Chicken Magnet </h1>
+                    <p>
+                        $12.00 AUD
+                    </p>
+                    <img src="p_chicken_magnet.jpg">
+                </div>
+                <div class="listing">
+                    <h1> Pet Nametag (Customisable) </h1>
+                    <p>
+                        $25.00 AUD
+                    </p>
+                    <img src="p_pet_tag.jpg">
+                </div>
+            </div>
+            <div class="form">
+                <h2>Make an<br>Order Request:</h2>
+                <form action="https://formspree.io/f/mzdylplk" method="post">
+                    <label>Your Email*</label><br>
+                    <input type="email" name="email"><br>
+                    
+                    <label>Order Details*</label><br>
+                    <input type="text" name="details"><br>
+                    <br>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>
+                Legal information here: Blah Blah Blah Blah
+            </p>
+            
+            <p href="#"> Instagram </h3>
+        </footer>
+    </div>
+</body>
+</html>
